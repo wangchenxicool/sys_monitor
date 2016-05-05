@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANDROID	my_popen.cpp	3;"	d	file:
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= sys_monitor$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES	:= \\$/;"	m
+OPEN_MAX_GUESS	my_popen.cpp	10;"	d	file:
+SHELL	my_popen.cpp	6;"	d	file:
+SHELL	my_popen.cpp	8;"	d	file:
+_MY_POPEN_H	my_popen.h	2;"	d
+childpid	my_popen.cpp	/^static pid_t	*childpid = NULL;$/;"	v	file:
+do_fork	main.cpp	/^static int do_fork = 1;$/;"	v	file:
+init_signals	main.cpp	/^void init_signals (void) {$/;"	f
+main	main.cpp	/^int main (int argc, char * argv[]) {$/;"	f
+maxfd	my_popen.cpp	/^static int		maxfd;	\/* from our open_max(), {Prog openmax} *\/$/;"	v	file:
+my_pclose	my_popen.cpp	/^int my_pclose (FILE *fp) {$/;"	f
+my_popen	my_popen.cpp	/^FILE * my_popen (const char *cmdstring, const char *type) {$/;"	f
+my_system	my_popen.cpp	/^int my_system (const char * cmd) {$/;"	f
+open_max	my_popen.cpp	/^static int open_max (void) {$/;"	f	file:
+openmax	my_popen.cpp	/^static int openmax = 0;$/;"	v	file:
+openmax	my_popen.cpp	/^static int openmax = OPEN_MAX;$/;"	v	file:
+parse_opts	main.cpp	/^int parse_opts (int argc, char * argv[]) {$/;"	f
+print_usage	main.cpp	/^void print_usage (const char * prog) {$/;"	f
+safe_fork	my_popen.cpp	/^static pid_t safe_fork (void) {$/;"	f	file:
+signup	main.cpp	/^void signup (int signum) {$/;"	f
+signup_flag	main.cpp	/^static int signup_flag = 1;$/;"	v	file:
+work_loop	main.cpp	/^static void work_loop() {$/;"	f	file:

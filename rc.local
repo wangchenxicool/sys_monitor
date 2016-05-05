@@ -1,0 +1,12 @@
+#!/system/bin/sh
+
+#sleep 25
+
+#busybox ifconfig eth0 172.16.88.2 netmask 255.255.255.0
+#busybox route add default gw 172.16.88.1
+#setprop net.dns1 172.16.88.1
+
+#insmod /system/app/checker/modules/check_key_value.ko
+#am start -n org.qtproject.example.dvb_test_ui/org.qtproject.qt5.android.bindings.QtActivity
+
+sys_monitor
